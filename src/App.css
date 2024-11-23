@@ -1,0 +1,82 @@
+/* App.css */
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f8fa;
+}
+
+.logo-box {
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 300px;
+  border: 1px solid black
+}
+
+.logo {
+  width: 50px;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  color: black;
+  font-size: 1.5rem;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  width: 100%;
+  transition: background-color 0.3s;
+  color: black;
+  font-weight: bold;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+button img {
+  width: 200px;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0d8dd7;
+  color: white
+}
+
+.apple {
+  width: 20px;
+  width: 50px;
+}
+
+.logo-box span{
+  width: 40px;
+  margin: auto;
+  background-color: #fff;
+  font-size: 40px;
+  margin-top: -16px;
+}
+
+.logo-box input{
+  width: 100%;
+  background: transparent;
+  border: 1px solid #999;
+  outline: 0;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
